@@ -22,4 +22,8 @@ public abstract class DateUtil {
         c.set(Calendar.SECOND,59);
         return c.getTime();
     }
+
+    public static String getValue(){
+        return "aa";
+    }
 }
